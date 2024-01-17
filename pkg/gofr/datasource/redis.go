@@ -9,7 +9,7 @@ import (
 	"github.com/redis/go-redis/v9"
 )
 
-type RedisConfig struct {
+type Config struct {
 	HostName string
 	Port     int
 	Options  *redis.Options
